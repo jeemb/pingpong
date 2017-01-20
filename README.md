@@ -6,6 +6,9 @@ Based on a number inputted by the user this PingPong program generates a range o
 
 ##Specifications
 
+* This program produces a range of sequential numbers up to the user input number.
+	Input: 2
+	Output: [1, 2]
 * This project replaces any number divisible by 3 with “ping”
 	Input: 3
 	Output: [1, 2, ping]
