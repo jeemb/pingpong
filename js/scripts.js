@@ -6,16 +6,20 @@ var createArray = function(number) {
   for (var i=0; i <= high; i++) {
     array.push(i);
   }
+  for (var i=0; i <= array.length; i++) {
+    if (i % 3 === 0) {
+      array[i] = "ping";
+    }
+  }
 
-  // for (var i=0; i <= array.length; i++) {
-  //   if (number[i] % 3 === 0) {
-  //     $(array.text("ping"));
+// var divByThree = function(number) {
+//   for (var i=0; i <= array.length; i++) {
+//     if (number % 3 === 0) {
+//       $(array.text("ping"));
     // } else if (number[i] % 5 === 0) {
     //   return "pong";
     // } else if (number[i] % 3 === 0 && number[i] % 5 === 0) {
     //   return "pingpong";
-    // }
-  // }
   alert("range is: " + array);
   return array;
 };
