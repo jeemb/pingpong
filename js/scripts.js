@@ -1,6 +1,5 @@
 // business logic
 var createArray = function(number) {
-  var result = '';
   var high = number;
   var array = [];
   for (var i=0; i <= high; i++) {
@@ -30,7 +29,7 @@ var createArray = function(number) {
     //   return "pong";
     // } else if (number[i] % 3 === 0 && number[i] % 5 === 0) {
     //   return "pingpong";
-  alert("range is: " + array);
+  // alert("range is: " + array);
   return array;
 };
 //
