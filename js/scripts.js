@@ -16,6 +16,11 @@ var createArray = function(number) {
       array[i] = "pong";
     }
   }
+  for (var i=0; i <= array.length; i++) {
+    if (i % 15 === 0) {
+      array[i] = "pingpong";
+    }
+  }
 
 // var divByThree = function(number) {
 //   for (var i=0; i <= array.length; i++) {
