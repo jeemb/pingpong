@@ -9,16 +9,26 @@ var createArray = function(number) {
 
   // for (var i=0; i <= array.length; i++) {
   //   if (number[i] % 3 === 0) {
-  //     return "ping";
-  //   } else if (number[i] % 5 === 0) {
-  //     return "pong";
-  //   } else if (number[i] % 3 === 0 && number[i] % 5 === 0) {
-  //     return "pingpong";
-  //   }
+  //     $(array.text("ping"));
+    // } else if (number[i] % 5 === 0) {
+    //   return "pong";
+    // } else if (number[i] % 3 === 0 && number[i] % 5 === 0) {
+    //   return "pingpong";
+    // }
   // }
-  return result;
+  alert("range is: " + array);
+  return array;
 };
-
+//
+// var publishArray = function(createArray(number)) {
+//   var result = ''
+//   var list = document.createElement('ul');
+//   for (var i = 0; i < array.length; i++) {
+//     item.appendChild(document.createTExtNode(array[i]));
+//     list.appendChild(item);
+//   }
+//   return list;
+// }
 // user interface logic
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
@@ -32,7 +42,8 @@ $(document).ready(function() {
     // } else if (result === "pingpong") {
     //   $(".result").text("pingpong")
     // }
-
+    $("#result p").text(result);
+    alert("made it!")
     $("#result").show();
 });
 });
