@@ -5,7 +5,7 @@ var createArray = function(number) {
   for (var i = 0; i <= high; i++) {
     array.push(" " + i);
   }
-  for (var i = 1; i <= array.length - 1; i++) {
+  for (var i = 0; i < array.length; i++) {
     if ([i] % 3 === 0) {
       array[i] = " " + "ping";
     }
@@ -26,6 +26,7 @@ $(document).ready(function() {
     event.preventDefault();
     var inputNumber = parseInt($("input#number").val());
     var result = createArray(inputNumber);
+
     $("#result p").text(result);
     $("#result").show();
   });
