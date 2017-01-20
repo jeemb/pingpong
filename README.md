@@ -1,24 +1,30 @@
+# Ping-Pong Program
+
+#### Play a round of programming ping-pong by entering a number. The program will give you a range of numbers and text up to the user's inputted number, January 20, 2017
+
 #### By Jennifer Beem
 
 ## Description
 
-Based on a number inputted by the user this PingPong program generates a range of numbers up to the inputted number with special text for numbers divisible by 3, 5, and 15.
+This program generates a range of numbers and text up to a user-inputted number, which includes text (based on integer divisibility by 3, 5, and 15).
 
 ##Specifications
 
-* This program produces a range of sequential numbers up to the user input number.
+* This program produces a range (starting at 1) of numbers up to the user input number.
 	Input: 2
 	Output: [1, 2]
-* This project replaces any number divisible by 3 with “ping”
+
+* This program replaces any number divisible by 3 with “ping”
 	Input: 3
 	Output: [1, 2, ping]
-* This project replaces any number divisible by 5 with “pong”
+
+* This program replaces any number divisible by 5 with “pong”
 	Input: 5
 	Output: [1, 2, ping, 4, pong]
 
-* This project replaces any number divisible by 15 with “pingpong”
+* This program replaces any number divisible by 15 with “ping-pong”
 	Input: 15
-	Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
+	Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]
 
 ## Setup/Installation Requirements
 
@@ -36,7 +42,7 @@ None known.
 
 ## Support and contact details
 
-Feel free to contact me at: jenniferbeem@gmail.coom if any questions come up!
+Feel free to contact me at: jenniferbeem@gmail.com if any questions come up!
 
 ## Technologies Used
 
