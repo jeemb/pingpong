@@ -9,12 +9,13 @@ h1 {
 
 form {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 #result {
   text-align: center;
   font-weight: bold;
+  padding-top: 30px;
 }
 
 body {
@@ -23,5 +24,9 @@ body {
 
 button {
   background-color: #DD8B79;
-  font-size: 20px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }

@@ -13,7 +13,7 @@ var createArray = function(number) {
       array[i] = " " + "pong";
     }
     if ([i] % 15 === 0) {
-      array[i] = " " + "pingpong";
+      array[i] = " " + "ping-pong";
     }
   }
   var shifted = array.shift();
@@ -28,5 +28,5 @@ $(document).ready(function() {
     var result = createArray(inputNumber);
     $("#result p").text(result);
     $("#result").show();
-});
+  });
 });
