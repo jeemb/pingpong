@@ -6,17 +6,17 @@ var createArray = function(number) {
   for (var i=0; i <= high; i++) {
     array.push(i);
   }
-  for (var i=0; i <= array.length; i++) {
+  for (var i=1; i <= array.length - 1; i++) {
     if (i % 3 === 0) {
       array[i] = "ping";
     }
   }
-  for (var i=0; i <= array.length; i++) {
+  for (var i=1; i <= array.length - 1; i++) {
     if (i % 5 === 0) {
       array[i] = "pong";
     }
   }
-  for (var i=0; i <= array.length; i++) {
+  for (var i=1; i <= array.length - 1; i++) {
     if (i % 15 === 0) {
       array[i] = "pingpong";
     }
@@ -56,8 +56,8 @@ $(document).ready(function() {
     // } else if (result === "pingpong") {
     //   $(".result").text("pingpong")
     // }
-    $("#result p").text(result);
-    alert("made it!")
+    $("#result ul").text(result);
+    // alert("made it!")
     $("#result").show();
 });
 });
