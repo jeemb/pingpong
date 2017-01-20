@@ -16,3 +16,12 @@ form {
   text-align: center;
   font-weight: bold;
 }
+
+body {
+  background-color: #FBE5E0;
+}
+
+button {
+  background-color: #DD8B79;
+  font-size: 20px;
+}
